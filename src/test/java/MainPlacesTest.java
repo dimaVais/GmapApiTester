@@ -15,9 +15,9 @@ import java.util.ArrayList;
 public class MainPlacesTest
 {
     private static WebDriver driver;
-    private static ArrayList<Triple<String,String,String>> allSqlData;
-    private static ArrayList<Float[]> allAPIData = new ArrayList<Float[]>();
-    private static ArrayList<String[]> allResultData = new ArrayList<String[]>();
+    private static ArrayList<Triple<String,String,String>> allSqlData; //All the data from remote SQL server.
+    private static ArrayList<Float[]> allAPIData = new ArrayList<Float[]>(); //All the data of lat and lng from API.
+    private static ArrayList<String[]> allResultData = new ArrayList<String[]>();//All test result data.
 
     //Before class, initialize report class
     @BeforeClass
