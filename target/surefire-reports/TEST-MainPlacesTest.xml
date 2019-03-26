@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="MainPlacesTest" time="32.227" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="MainPlacesTest" time="31.101" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_161\bin"/>
@@ -63,8 +63,8 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="MainPlacesTest" name="test01_GetDataFromSql" time="1.883"/>
-  <testcase classname="MainPlacesTest" name="test02_GetGooglePlacesData" time="5.6"/>
-  <testcase classname="MainPlacesTest" name="test03_TestLocOnGoogleMaps" time="22.53"/>
-  <testcase classname="MainPlacesTest" name="test04_WriteTestResultToDb" time="2.214"/>
+  <testcase classname="MainPlacesTest" name="test01_GetDataFromSql" time="1.694"/>
+  <testcase classname="MainPlacesTest" name="test02_GetGooglePlacesData" time="5.424"/>
+  <testcase classname="MainPlacesTest" name="test03_TestLocOnGoogleMaps" time="21.666"/>
+  <testcase classname="MainPlacesTest" name="test04_WriteTestResultToDb" time="2.317"/>
 </testsuite>
